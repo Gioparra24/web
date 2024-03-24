@@ -212,12 +212,14 @@ display: flex;
     .container {
         width: 100%;
     }
-
     table {
         font-size: 12px;
     }
 
     th, td {
         padding: 6px;
+    }
+    nav {
+        width: 100%;
     }
     }

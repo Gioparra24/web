@@ -164,62 +164,49 @@ display: flex;
     .titulo {
         padding: 20px;
     }
-
     .contenido {
         flex-direction: column;
     }
-
     .contenido .articulo,
     .contenido .secundario {
         width: 100%;
     }
-
     .contenido .articulo div,
     .contenido .secundario p {
         width: 100%;
         padding: 10px;
     }
-
     .contenido .articulo img {
         width: 100%;
         margin-bottom: 15px;
     }
-
     .contenido .secundario p {
         height: auto;
     }
-
     .piedePagina,
     .conteFormulario,
     .container {
         width: 100%;
     }
     .container {
-        width: 100%;
         margin: auto;
     }
     nav ul img {
         width: 60px;
     }
-
     p img {
         width: 100%;
         max-width: 300px;
     }
-}
-/*para lista de precios*/
-@media screen and (max-width: 600px) {
-    .container {
-        width: 100%;
-    }
     table {
         font-size: 12px;
     }
-
     th, td {
         padding: 6px;
     }
-    nav {
-        width: 100%;
-    }
+}
+/*para lista de precios*/
+@media screen and (max-width: 600px) {
+   
+    
     }

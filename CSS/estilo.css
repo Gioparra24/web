@@ -225,11 +225,8 @@ display: flex;
         display: none;
     }
 
-    .titulo h1 {
-        font-size: 24px;
+    .titulo {
+        padding: 20px;
     }
-
-    .piedePagina {
-        position: static;
     }
 }

@@ -197,7 +197,7 @@ display: flex;
     .container {
         width: 100%;
         margin: auto;
-    
+    }
     nav ul img {
         width: 60px;
     }
@@ -206,7 +206,7 @@ display: flex;
         width: 100%;
         max-width: 300px;
     }
-}}
+}
 /*para lista de precios*/
 @media screen and (max-width: 600px) {
     .container {

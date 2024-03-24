@@ -206,76 +206,30 @@ display: flex;
         width: 100%;
         max-width: 300px;
     }
-}
-//para lista de precios
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
+}}
+/*para lista de precios*/
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
 
-.container {
-    width: 90%;
-    margin: auto;
-}
+    table {
+        font-size: 12px;
+    }
 
-/* Estilos para la tabla */
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
+    th, td {
+        padding: 6px;
+    }
 
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
+    nav ul {
+        display: none;
+    }
 
-th {
-    background-color: #f2f2f2;
-}
+    .titulo h1 {
+        font-size: 24px;
+    }
 
-/* Estilos para la navegación */
-nav {
-    background-color: #333;
+    .piedePagina {
+        position: static;
+    }
 }
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-nav ul h4 {
-    color: white;
-    text-align: center;
-    margin: 0;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-/* Estilos para el pie de página */
-.piedePagina {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;

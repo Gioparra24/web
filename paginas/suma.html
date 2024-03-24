@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Sumar dos numeros</h1>
+    <p>Ingrese dos numeros</p>
+    Digite número uno<input id="num1"><br>
+    Digite número dos<input id="num2"><br>
+
+    <button type="button" onclick="myFunction()">Sumar dos números</button>
+    <p id="sumando"></p>
+
+    <script>
+        function myFunction(){
+            var x,y,suma,text;
+
+            x= document.getElementById("num1").value;
+
+            y= document.getElementById("num2").value;
+
+                if(isNaN(x) || isNaN(y)) {
+                    text = "número requerido"
+                } else {
+                    suma= parseFloat(x)+parseFloat(y);
+                    text= suma;    
+                }
+                    document.getElementById("sumando").innerHTML = text;    
+                }
+
+    </script>
+</body>
+</html>

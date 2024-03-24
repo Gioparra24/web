@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CotizaciónOnline</title>
+</head>
+
+<style>
+    body{ background-color: aquamarine; padding: 30px;}
+
+
+</style>
+<body>
+    
+    <h1>Cotice sus productos aquí!</h1>
+    <table>
+
+
+
+    </table>
+
+    <p>Ingrese producto y cantidad</p>
+    Digite producto<input id="num1"><br><br>
+    Digite cantidad<input id="num2"><br>
+
+    <button type="button" onclick="myFunction()">calcular valor</button>
+    <p id="sumando"></p>
+
+    <script>
+        function myFunction(){
+            var x,y,suma,text;
+
+            x= document.getElementById("num1").value;
+
+            y= document.getElementById("num2").value;
+
+                if(x= "SSD") {
+                    suma= parseFloat(y)*150000;
+                    res = suma;
+                }
+                    document.getElementById("sumando").innerHTML = res;
+                    document.write(res);    
+                }
+
+    </script>
+    
+</body>
+</html>
